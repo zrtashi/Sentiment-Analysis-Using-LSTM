@@ -6,13 +6,23 @@ This project focuses on performing sentiment analysis on a large dataset of IMDB
 # Key Steps:
 
 **Data Preprocessing:**
+
 Loading and extracting the dataset.
+
 Tokenizing and padding text sequences to prepare the data for the LSTM model.
+
 **Model Construction:**
+
 Building a Sequential model with an Embedding layer and LSTM layer.
+
 Output layer with a sigmoid activation function for binary classification.
+
 **Training and Evaluation:**
+
 Compiling the model using the Adam optimizer and binary crossentropy loss.
+
 Training the model on the training dataset and validating it on a separate test dataset.
+
 **Prediction:**
+
 Using the trained model to predict the sentiment of new movie reviews.
